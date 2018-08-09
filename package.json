@@ -1,0 +1,70 @@
+{
+  "_from": "markup-inline-loader@0.2.2",
+  "_id": "markup-inline-loader@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Jf/44VKTgcG6rT2b9h6/HvhfEBAja3KA86Y/t9n7iUDBV8FeoQv391IXwzYguPN/lYYTDjmP31vxwAImbiS9og==",
+  "_location": "/markup-inline-loader",
+  "_phantomChildren": {
+    "argparse": "1.0.10",
+    "clap": "1.2.3",
+    "coa": "1.0.4",
+    "colors": "1.1.2",
+    "mkdirp": "0.5.1",
+    "sax": "1.2.4",
+    "source-map": "0.5.7",
+    "whet.extend": "0.9.9"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "markup-inline-loader@0.2.2",
+    "name": "markup-inline-loader",
+    "escapedName": "markup-inline-loader",
+    "rawSpec": "0.2.2",
+    "saveSpec": null,
+    "fetchSpec": "0.2.2"
+  },
+  "_requiredBy": [
+    "/legoflow-engine"
+  ],
+  "_resolved": "https://registry.npmjs.org/markup-inline-loader/-/markup-inline-loader-0.2.2.tgz",
+  "_shasum": "a99906e2774ece84b7301f656f16060170f004e9",
+  "_spec": "markup-inline-loader@0.2.2",
+  "_where": "/Users/lijialiang/legoflow@2/cli/node_modules/legoflow-engine",
+  "author": {
+    "name": "Zhicheng Wang"
+  },
+  "bugs": {
+    "url": "https://github.com/asnowwolf/markup-inline-loader/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "svgo": "^0.6.6"
+  },
+  "deprecated": false,
+  "description": "inline markups to HTML: SVG, MathML, etc.",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^9.0.2"
+  },
+  "homepage": "https://github.com/asnowwolf/markup-inline-loader#readme",
+  "keywords": [
+    "webpack",
+    "loader",
+    "svg",
+    "mathml",
+    "markup"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "markup-inline-loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asnowwolf/markup-inline-loader.git"
+  },
+  "scripts": {
+    "test": "mocha ./test/index.spec.js"
+  },
+  "version": "0.2.2"
+}
